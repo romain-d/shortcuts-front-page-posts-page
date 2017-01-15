@@ -66,11 +66,6 @@ class Shortcuts_Front_Page_Posts_Page {
 	 * @return array
 	 */
 	public static function add_shortcuts( $views ) {
-		// Check capabilities
-		if ( ! current_user_can( 'edit_pages' ) ) {
-			return $views;
-		}
-
 		// Check if option exist
 		$show_on_front = get_option( 'show_on_front' );
 		if ( empty( $show_on_front ) || 'page' != $show_on_front ) {
