@@ -1,0 +1,15 @@
+{
+	"name": "romain-d/shortcuts-front-page-posts-page",
+	"desciption": "Very simple WordPress plugin to add in admin page screen 2 shortcuts for Front Page and Posts Page Edit",
+	"type": "wordpress-plugin",
+    "homepage": "https://github.com/romain-d/shortcuts-front-page-posts-page",
+	"authors": [
+    	{
+		 "name": "Romain DORR",
+		 "email": "contact@romaindorr.fr"
+    	}
+	],
+	"require": {
+    	"php": ">=5.4"
+	}
+}
