@@ -41,3 +41,7 @@ Verify your configuration in Settings > Reading section.
 
 = 1.0 =
 * First release of Shortcuts for Front Page and Posts Page plugin.
+
+== Upgrade Notice ==
+
+Nothing.
