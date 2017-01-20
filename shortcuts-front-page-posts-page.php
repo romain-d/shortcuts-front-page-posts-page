@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Shortcuts for Front Page and Posts page
+ * Plugin Name: Shortcuts for Front Page and Posts Page
  * Version:     1.0.0
  * Plugin URI:  https://romaindorr.fr
  * Description: Very simple WordPress plugin to add in admin page screen 2 shortcuts for Front Page and Posts Page
