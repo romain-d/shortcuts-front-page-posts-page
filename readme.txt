@@ -4,7 +4,7 @@ Donate link: https://romaindorr.fr
 Tags: shortcuts, admin, administration, navigation, pages
 Requires at least: 4.6
 Tested up to: 4.7.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,11 +21,9 @@ Github project homepage: https://github.com/romain-d/shortcuts-front-page-posts-
 
 This section describes how to install the plugin and get it working.
 
-e.g.
-
 1. Upload the plugin files to the `/wp-content/plugins/shortcuts-front-page-posts-page` directory, or install the plugin through the WordPress plugins screen directly.
-1. Activate the plugin through the 'Plugins' screen in WordPress
-1. Shortcuts are added automatically!
+2. Activate the plugin through the 'Plugins' screen in WordPress
+3. Shortcuts are added automatically!
 
 == Frequently Asked Questions ==
 
@@ -39,7 +37,10 @@ Verify your configuration in Settings > Reading section.
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.1 =
+* Add screenshot and languages folder
+
+= 1.0.0 =
 * First release of Shortcuts for Front Page and Posts Page plugin.
 
 == Upgrade Notice ==

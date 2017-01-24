@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Shortcuts for Front Page and Posts Page
- * Version:     1.0.0
+ * Version:     1.0.1
  * Plugin URI:  https://romaindorr.fr
  * Description: Very simple WordPress plugin to add in admin page screen 2 shortcuts for Front Page and Posts Page
  * Author:      Romain DORR
@@ -12,16 +12,14 @@
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-
 defined( 'ABSPATH' ) or die( 'No direct load !' );
-
 
 load_plugin_textdomain( 'shortcuts-front-page-posts-page', false, basename( dirname( __FILE__ ) ) . '/languages' );
 
 // Constants
 define( 'SHORTCUTS_FRONT_PAGE_POSTS_PAGE_DIR', plugin_dir_path( __FILE__ ) );
 define( 'SHORTCUTS_FRONT_PAGE_POSTS_PAGE_URL', plugin_dir_url( __FILE__ ) );
-define( 'SHORTCUTS_FRONT_PAGE_POSTS_PAGE_VERSION', '1.0.0' );
+define( 'SHORTCUTS_FRONT_PAGE_POSTS_PAGE_VERSION', '1.0.1' );
 
 add_action( 'plugins_loaded', 'shortcuts_front_page_posts_page_init' );
 function shortcuts_front_page_posts_page_init() {
@@ -98,8 +96,6 @@ class Shortcuts_Front_Page_Posts_Page {
 			$edit_links['posts-page'] = '<a href="' . get_edit_post_link( $page_for_posts ) . '">' . esc_html__( 'Posts Page', 'shortcuts-front-page-posts-page' ) . '</a>';
 		}
 
-		$edit_links = apply_filters( 'shortcuts-front-page-posts-page-edit-links', $edit_links );
-
-		return $edit_links;
+		return apply_filters( 'shortcuts-front-page-posts-page-edit-links', $edit_links );
 	}
 }
